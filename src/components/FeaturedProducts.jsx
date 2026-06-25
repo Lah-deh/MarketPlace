@@ -30,7 +30,7 @@ const products = [
     name: "Fresh Tomatoes",
     category: "Tomatoes",
     state: "Kaduna State",
-    price: "₦600",
+    price: "₦6000",
     unit: "basket",
     rating: 4.9,
     reviews: 32,
