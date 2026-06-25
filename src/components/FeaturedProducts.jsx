@@ -7,13 +7,7 @@ const WhatsAppIcon = () => (
   </svg>
 );
 
-/*
-  HOW TO ADD PRODUCT IMAGES:
-  1. Create a folder: public/products/
-  2. Add your images there: public/products/ofada-rice.jpg, public/products/tomatoes.jpg etc.
-  3. Set the "image" field below to "/products/your-image.jpg"
-  4. No import needed — public/ folder files work as plain string paths in Vite.
-*/
+
 const products = [
   {
     id: 1,
@@ -21,20 +15,20 @@ const products = [
     category: "Local Rice",
     state: "Kwara State",
     price: "₦1,250",
-    unit: "50kg",
+    unit: "1kg",
     rating: 4.8,
     reviews: 24,
     replyTime: "15 mins",
     verified: true,
     seller: "Adoela Farms",
-    whatsapp: "2348012345678",
-    image: "/products/ofada.jpg",   // ← put your image in public/products/
+    whatsapp: "2348144316917",
+    image: "/products/ofada.jpg",   
     bgColor: "bg-amber-50",
   },
   {
     id: 2,
     name: "Fresh Tomatoes",
-    category: "Garden Tomatoes",
+    category: "Tomatoes",
     state: "Kaduna State",
     price: "₦600",
     unit: "basket",
@@ -43,7 +37,7 @@ const products = [
     replyTime: "10 mins",
     verified: true,
     seller: "Green Fields Farm",
-    whatsapp: "2348023456789",
+    whatsapp: "2348144316917",
     image: "/products/tomato.jpg",
     bgColor: "bg-red-50",
   },
@@ -52,14 +46,14 @@ const products = [
     name: "Catfish (Live)",
     category: "Fresh from Farm",
     state: "Delta State",
-    price: "₦2,800",
+    price: "₦2000",
     unit: "kg",
     rating: 4.7,
     reviews: 15,
     replyTime: "20 mins",
     verified: true,
     seller: "Delta Fishery",
-    whatsapp: "2348034567890",
+    whatsapp: "2348144316917",
     image: "/products/catfish.jpg",
     bgColor: "bg-blue-50",
   },
@@ -68,14 +62,14 @@ const products = [
     name: "Yellow Maize",
     category: "Quality Maize",
     state: "Kano State",
-    price: "₦850",
-    unit: "50kg",
+    price: "₦3000",
+    unit: "10kg",
     rating: 4.6,
     reviews: 18,
     replyTime: "12 mins",
     verified: true,
     seller: "Kano Agro Farm",
-    whatsapp: "2348045678901",
+    whatsapp: "2348144316917",
     image: "/products/maize.jpg",
     bgColor: "bg-yellow-50",
   },
